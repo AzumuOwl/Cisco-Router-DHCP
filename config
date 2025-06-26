@@ -1,0 +1,12 @@
+enable
+configure terminal
+interface g0/0
+ip address  
+no shutdown
+exit
+ip dhcp pool LAN_POOL
+network <IP> <Subnetmark>
+default-router <IP>
+dns-server 8.8.8.8 8.8.4.4
+exit
+end
