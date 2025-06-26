@@ -4,7 +4,7 @@ interface g0/0
 ip address  
 no shutdown
 exit
-ip dhcp pool LAN_POOL
+ip dhcp pool <NameLan>
 network <IP> <Subnetmark>
 default-router <IP>
 dns-server 8.8.8.8 8.8.4.4
